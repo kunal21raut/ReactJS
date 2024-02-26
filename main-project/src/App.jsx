@@ -3,6 +3,7 @@ import Card from './Components/Card'
 import Counter from './Components/Counter'
 import UnplashImageSearch from './Components/UnplashImageSearch';
 import SearchItem from './Components/SearchItem';
+import FormHandling from './Components/FormHandling';
 
 function App() {
 
@@ -10,7 +11,8 @@ function App() {
   return (
     <>
       <UnplashImageSearch />
-      <SearchItem />
+      {/* <SearchItem /> */}
+      <FormHandling />
       {/* <Counter /> */}
       {/* <Card username="AlisaMelborne"/>
       <Card username="SteveSmith" btnText="click me"/> */}
