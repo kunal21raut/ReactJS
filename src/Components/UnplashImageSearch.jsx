@@ -13,7 +13,7 @@ const UnplashImageSearch = () => {
         const API_URL = `https://api.unsplash.com/search/photos?page=1&query=${searchvalue}&per_page=20&client_id=lKhVS_KABrJYskam5N2qc3T6yz_LOYCMcRn59yOLOSY;`;
         console.log("submitted", API_URL);
         axios.get(API_URL).then((response) => {
-            // console.log(response.data)
+            // console.log(response.data);
             setImagesResult(response.data.results);
         }).catch((error) => {
             console.error('Error fetching images:', error);
